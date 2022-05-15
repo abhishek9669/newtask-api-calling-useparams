@@ -31,23 +31,15 @@ export default function Home() {
 
     //return statment
   return (
-    <Table striped bordered hover>
-    <thead>
-      <tr>
-        <th>UserID</th>
-        <th>id</th>
-        <th>Title</th>
-        <th>Body</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{data.userId}</td>
-        <td>{data.id}</td>
-        <td>{data.title}</td>
-        <td>{data.body}</td>
-      </tr>
-    </tbody>
-  </Table> 
+      <div>
+            <h3>userId = {data.userId}</h3>
+        <h3>id = {data.id}</h3>
+        <h3>title = {data.title}</h3>
+        <h3>body = {data.body}</h3>
+
+      </div>
+   
+      
+     
   )
 }
